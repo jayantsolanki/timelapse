@@ -1,0 +1,4 @@
+*/30 * * * * /usr/bin/python3m /home/pi/timelapse/timelapse/customPic.py >> /home/pi/timelapse/timelapse/customPic.log
+# to view log: grep CRON /var/log/syslog
+# this is for every 30 minutes
+# new entry: crontab e
