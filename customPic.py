@@ -20,7 +20,7 @@ print ('Total Images captured {0}'.format(countofImages+1))
 camera = PiCamera()
 camera.resolution = (1296, 972)
 camera.start_preview()
-completeFilePath = '/home/pi/timelapse/timelapse/photos/image{0:04d}.jpg'.format(countofImages)
+completeFilePath = '/home/pi/timelapse/timelapse/photos/image{0:08d}.jpg'.format(countofImages)
 
 camera.capture(completeFilePath)
 
